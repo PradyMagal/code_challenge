@@ -1,0 +1,17 @@
+# FastAPI Application Configuration
+
+# Application metadata
+app:
+  name: "Code Challenge"
+  version: "0.1.0"
+  author: "Pradyun Magal"  # Your name here
+
+# Environment settings
+environment:
+  region: "us-west"  # Your region
+  debug: true  # Set to false in production
+
+# Service configuration
+services:
+  timeout_seconds: 30
+  max_retries: 3
